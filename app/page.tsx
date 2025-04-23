@@ -1,5 +1,6 @@
 import { NewsComparisonCard } from "@/components/news-comparison-card"
 import { InfoPanel } from "@/components/info-panel"
+import { UrlAnalyzerForm } from "@/components/url-analyzer-form"
 import { newsArticles } from "@/data/sample-news"
 
 export default function HomePage() {
@@ -15,10 +16,18 @@ export default function HomePage() {
       <main className="max-w-7xl mx-auto py-8 px-4 sm:px-6">
         <InfoPanel />
 
-        <div className="mt-8 space-y-10">
-          {newsArticles.map((article) => (
-            <NewsComparisonCard key={article.id} article={article} />
-          ))}
+        <div className="mt-8">
+          <h2 className="text-xl font-bold mb-4">Analyze Your Own Article</h2>
+          <UrlAnalyzerForm />
+        </div>
+
+        <div className="mt-12">
+          <h2 className="text-xl font-bold mb-4">Sample Articles</h2>
+          <div className="space-y-10">
+            {newsArticles.map((article) => (
+              <NewsComparisonCard key={article.id} article={article} />
+            ))}
+          </div>
         </div>
       </main>
 
