@@ -66,7 +66,7 @@ export function NewsComparisonCard({ article }: NewsComparisonCardProps) {
             </TabsTrigger>
             <TabsTrigger value="false" className="data-[state=active]:bg-red-50">
               <AlertCircle className="h-4 w-4 mr-2 text-red-600" />
-              Misinformation
+              Editorialized
             </TabsTrigger>
           </TabsList>
 
@@ -115,7 +115,7 @@ export function NewsComparisonCard({ article }: NewsComparisonCardProps) {
 
             {showExplanation && (
               <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-md">
-                <h4 className="font-semibold text-red-800 mb-2">Misinformation Analysis</h4>
+                <h4 className="font-semibold text-red-800 mb-2">Editorialized Content Analysis</h4>
                 <p className="text-sm text-red-700">{article.misinformationExplanation}</p>
               </div>
             )}

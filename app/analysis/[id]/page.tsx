@@ -18,7 +18,7 @@ export default async function AnalysisPage({ params }: AnalysisPageProps) {
     <div className="min-h-screen bg-slate-50">
       <header className="bg-white border-b border-slate-200 py-4 px-6 sticky top-0 z-10">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-slate-800">Misinformation Inoculation</h1>
+          <h1 className="text-2xl font-bold text-slate-800">Content Bias Inoculation</h1>
           <span className="text-sm bg-amber-100 text-amber-800 px-3 py-1 rounded-full">Research Prototype</span>
         </div>
       </header>
@@ -41,7 +41,7 @@ export default async function AnalysisPage({ params }: AnalysisPageProps) {
               <ul className="list-disc pl-5 space-y-1 text-sm">
                 <li>The original (neutral) version</li>
                 <li>A version with political bias</li>
-                <li>A version containing misinformation</li>
+                <li>A version with editorialized content</li>
               </ul>
             </div>
 
@@ -66,8 +66,8 @@ export default async function AnalysisPage({ params }: AnalysisPageProps) {
       <footer className="bg-slate-800 text-slate-200 py-6 px-4 mt-12">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-sm">
-            This is a research prototype designed to explore how exposure to misinformation variants might help build
-            cognitive resistance to false information.
+            This is a research prototype designed to explore how exposure to content variants might help build cognitive
+            resistance to biased and editorialized information.
           </p>
           <p className="text-xs mt-2 text-slate-400">
             Not for distribution. For educational and research purposes only.

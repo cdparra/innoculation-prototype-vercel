@@ -5,7 +5,7 @@ export default function Loading() {
     <div className="min-h-screen bg-slate-50 flex flex-col">
       <header className="bg-white border-b border-slate-200 py-4 px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-slate-800">Misinformation Inoculation</h1>
+          <h1 className="text-2xl font-bold text-slate-800">Content Bias Inoculation</h1>
           <span className="text-sm bg-amber-100 text-amber-800 px-3 py-1 rounded-full">Research Prototype</span>
         </div>
       </header>
@@ -22,8 +22,8 @@ export default function Loading() {
       <footer className="bg-slate-800 text-slate-200 py-6 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-sm">
-            This is a research prototype designed to explore how exposure to misinformation variants might help build
-            cognitive resistance to false information.
+            This is a research prototype designed to explore how exposure to content variants might help build cognitive
+            resistance to biased and editorialized information.
           </p>
         </div>
       </footer>

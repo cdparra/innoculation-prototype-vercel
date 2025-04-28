@@ -26,7 +26,7 @@ export function ArticleContent({ content, source, imageUrl, isOriginal, biasType
           <AlertDescription className="text-sm">
             {biasType === "political"
               ? "This version contains political bias and framing."
-              : "This version contains false information."}
+              : "This version contains editorialized content that may not be factually accurate."}
             {content.includes('class="bg-yellow-200') && (
               <span className="ml-1">Yellow highlights show potential differences from the original.</span>
             )}
